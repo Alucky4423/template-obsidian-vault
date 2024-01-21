@@ -6,7 +6,7 @@ processed: false
 
 > 👋 Welcome to your Obsidian vault
 
-## Cleanup Tasks
+## 🧹 Cleanup Tasks
 
 The final step is to clean up some of the project specific files and make this vault your own!
 
@@ -14,10 +14,10 @@ The final step is to clean up some of the project specific files and make this v
 > Run the following command in your terminal from the root of the vault:
 >
 > ```shell
-> rm -rf .github LICENSE README.md CHANGELOG.md version.txt
+> rm -rf .git .github LICENSE README.md CHANGELOG.md version.txt 00.DailyNotes/.gitkeep 10.Notes/.gitkeep 99.Assets/Atachments/.gitkeep
 > ```
 
-### Manual
+### 📜 Manual
 
 - [ ] Delete GitHub folder `rm -rf .github`
 - [ ] Delete [[LICENSE]]
@@ -25,7 +25,7 @@ The final step is to clean up some of the project specific files and make this v
 - [ ] Delete [[CHANGELOG]]
 - [ ] Delete `version.txt`
 
-## Hotkeys
+## ⌨️ Hotkeys
 
 > [!TODO]
 >
@@ -39,7 +39,7 @@ The final step is to clean up some of the project specific files and make this v
 - Open settings: `⌘,`
 - Delete a note: `⌘⇧Backspace`
 
-## Theme
+## 🎨 Theme
 
 To install a new theme:
 
@@ -49,7 +49,7 @@ To install a new theme:
 
 I personally use the [Minimal theme.](obsidian://show-theme?name=Minimal)
 
-## Obsidian Documentation
+## 📔 Obsidian Documentation
 
 I would suggest starting with these documentation pages:
 

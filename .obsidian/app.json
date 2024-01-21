@@ -1,8 +1,11 @@
 {
   "showFrontmatter": true,
   "useTab": false,
-  "tabSize": 4,
+  "tabSize": 2,
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "_assets/attachments"
+  "attachmentFolderPath": "99.Assets/Attachments",
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "newFileLocation": "current"
 }

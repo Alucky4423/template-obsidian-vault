@@ -1,10 +1,8 @@
-![2023-03-22T1722-Obsidian@2x](https://user-images.githubusercontent.com/18423853/227069885-83a9a90a-36a9-47c0-86fe-a7a124030f4b.png)
+# 📦 Template-Obsidian-Vault
 
-# Obsidian Beginner Vault Template
+ A template for a minimal obsidian vault customized based on [andrewmcodes](https://github.com/andrewmcodes)/[obsidian-beginner-vault-template](https://github.com/andrewmcodes/obsidian-beginner-vault-template).
 
-A template for a minimal [Obsidian vault](https://obsidian.md/), focused on setting good defaults and VS Code-like hotkeys. If you want to try Obsidian for the first time or just get a barebones template, you're in the right place.
-
-## Getting Started
+## 🚩 Getting Started
 
 To use this template, follow these steps:
 
@@ -15,104 +13,116 @@ To use this template, follow these steps:
 5. Select the folder you cloned the repo to.
 6. Open `GETTING STARTED.md` and follow the instructions.
 
-## Folder Structure
+## 📂 Folder Structure
 
 The template vault has the following folder structure:
 
-- `_assets`: this folder contains project-specific files and folders.
-  - `attachments`: this is where attachment files like images are stored.
-  - `templates`: this is where template files are stored.
-- `daily`: this folder is used for storing daily notes.
+- `00.DailyNotes`: this folder is used for storing daily notes.
+- `10.Notes`: this folder is used for storing notes.
+- `99.Assets`: this folder contains project-specific files and folders.
+	- `Attachments`: this is where attachment files like images are stored.
+	- `Templates`: this is where template files are stored.
 
-## Settings
+## ⚙️ Settings
 
 This section describes the settings that have been modified from the default Obsidian settings.
 
-### Editor
+### 📝 Editor
 
 The following table lists the editor settings that have been modified:
 
-| Setting          | Value |
-| ---------------- | ----- |
-| Show frontmatter | true  |
-| Use tabs         | false |
+| Settings | Value |
+| ---- | ---- |
+| Readable line length | `false` |
+| Show line number | `true` |
+| Indent using tabs | `false` |
+| Tab indent size | 2 |
 
-### Files & Links
+### 📔 Files & Links
 
 > **Warning**
 > If you are following along instead of using the template, make sure you have created the default folders listed above.
 
 The following table lists the files and links settings that have been modified:
 
-| Setting                              | Value                         |
-| ------------------------------------ | ----------------------------- |
-| Automatically update internal links  | true                          |
-| Detect all file extensions           | true                          |
-| Default location for new attachments | In the folder specified below |
-| Attachment folder path               | `_assets/attachments`         |
+| Settings | Value |
+| ---- | ---- |
+| Automatically update internal links | `true` |
+| Default location for new Notes | Same folder as current file |
+| Detect all file extensions | `true` |
+| Default location for new Attachments | In the folder specified below |
+| Attachment folder path | `/99.Assets/Attachments` |
 
-### Appearance
+### 👀 Appearance
 
 The following table lists the appearance settings that have been modified:
 
 | Setting            | Value   |
 | ------------------ | ------- |
-| Accent color       | #6e56cf |
-| Font size          | 15      |
-| Translucent window | true    |
+| Accent color       | `#6e56cf` `R:110; G:86; B:207;` |
+| Font size          | `15`      |
+| Translucent window | `true`    |
 
-### Hotkeys
+### ⌨️ Hotkeys
 
 The following table lists the modified hotkeys:
 
-| Description                           | Shortcut    |
-| ------------------------------------- | ----------- |
-| Add internal link                     | ⌘K          |
-| Command palette: Open command palette | ⌘⇧P         |
-| Delete current file                   | ⌘⇧Backspace |
-| Templates: Insert Template            | ⌘⌥I         |
-| Quick switcher: Open quick switcher   | ⌘P          |
-| Split right                           | ⌘\          |
-| Split down                            | ⌘⇧\         |
-| Move line down                        | ⌥↓          |
-| Move line up                          | ⌥↑          |
-| Add Markdown link                     | ⌘⌥K         |
-| Open in default app                   | ⌃D          |
-| Reveal in Finder                      | ⌃R          |
-| Toggle Left Sidebar                   | ⌘E          |
-| Toggle Right Sidebar                  | ⌘⇧E         |
-| Toggle Reading View                   | ⌃V          |
+| Description | Shortcut |
+| ---- | ---- |
+| Add internal link | ⌘ K |
+| Insert Markdown link | ⌘ ⌥ K |
+| Quick switcher: Open quick switcher | ⌘ P |
+| Command palette: Open command palette | ⌘ ⇧ P |
+| Delete current file | ⌘ ⇧ Backspace |
+| Templates: Insert Template | ⌘ ⌥ I |
+| Split right | ⌘ \ |
+| Split down | ⌘ ⇧ \ |
+| Move line up | ⌥ ↑ |
+| Move line down | ⌥ ↓ |
+| Open in default app | ⌃ D |
+| Reveal in Finder | ⌃ R |
+| Toggle Left Sidebar | ⌘ E |
+| Toggle Right Sidebar | ⌘ ⇧ E |
+| Toggle Reading View | ⌥ ⇧ / |
 
-### Core Plugins
+### 🔌 Core Plugins
 
 The following core plugins are toggled by default in this template:
 
-| Plugin           | Value |
-| ---------------- | ----- |
-| Format converter | false |
-| Page preview     | false |
-| Slash commands   | true  |
-| Bookmarks        | true  |
-| Properties       | true  |
+| Plugin | Value |
+| ---- | ---- |
+| Page preview | `false` |
+| Slash commands | `true` |
+| Bookmarks | `true` |
+| Properties | `true` |
 
 ### Community Plugins
 
 This vault does not come with any community plugins by default. You will have to disable safe mode in order to use them when you open the plugins settings menu.
 
-## Core Plugin Options
 
-### [Templates](https://help.obsidian.md/Plugins/Templates)
+## 🔌⚙️ Core Plugin Options
 
-| Setting                  | Value               |
-| ------------------------ | ------------------- |
-| Template folder location | `_assets/templates` |
+### 🎨 [Canvas](https://help.obsidian.md/Plugins/Canvas)
 
-### [Daily notes](https://help.obsidian.md/Plugins/Daily+notes)
+| Settings | Value |
+| ---- | ---- |
+| Default location for new canvas files | Same folder as current file |
 
-| Setting                    | Value                       |
-| -------------------------- | --------------------------- |
-| New file location          | daily                       |
-| Template file location     | `_assets/templates/t_daily` |
-| Open daily note on startup | true                        |
+### 🗓️ [Daily notes](https://help.obsidian.md/Plugins/Daily+notes)
+
+| Settings | Value |
+| ---- | ---- |
+| New file location | `00.DailyNotes` |
+| Template file location | `99.Assets/Templates/Template.DailyNote` |
+
+### 🍤 [Templates](https://help.obsidian.md/Plugins/Templates)
+
+| Settings | Value |
+| ---- | ---- |
+| Template fokder location | `99.Assets/Templates` |
+| Time format | `HH:mm:ss` |
+
 
 I hope this template helps you get started with Obsidian and provides a good base for customizing your own Obsidian vault.
+

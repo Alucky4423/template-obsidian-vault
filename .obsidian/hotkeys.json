@@ -108,14 +108,6 @@
       "key": "E"
     }
   ],
-  "markdown:toggle-preview": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "V"
-    }
-  ],
   "insert-template": [
     {
       "modifiers": [
@@ -123,6 +115,15 @@
         "Mod"
       ],
       "key": "I"
+    }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "/"
     }
   ]
 }

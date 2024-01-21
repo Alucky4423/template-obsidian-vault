@@ -1,5 +1,5 @@
 {
-  "folder": "daily",
-  "template": "_assets/templates/t_daily",
+  "folder": "00.DailyNotes",
+  "template": "99.Assets/Templates/Template.DailyNote",
   "autorun": true
 }
