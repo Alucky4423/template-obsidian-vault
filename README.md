@@ -113,6 +113,7 @@ This vault does not come with any community plugins by default. You will have to
 
 | Settings | Value |
 | ---- | ---- |
+| Date format | `YYYY/MM/YYYY-MM-DD` |
 | New file location | `00.DailyNotes` |
 | Template file location | `99.Assets/Templates/Template.DailyNote` |
 
